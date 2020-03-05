@@ -28,7 +28,7 @@ to match the amount of clusters made by make_blobs() and predicted by KMeans.
 
 # Output
 
-After running, the program has 3 different outputs: 
+After running, the program has 3 outputs: 
   1) A plot is shown with the random data points plotted, without clustering
   2) After the first, a plot is then shown with the data points in their respective clusters
   3) The centroids are then printed with their exact point location
@@ -69,5 +69,8 @@ Adjusted with 3 points:
     
 # What I Learned
   • Exposed to an abundance of Python concepts that really gave me a feeling for the language
+  
+  • I liked how Python has an easier syntax than other languages, but still provides great reliability with its
+    own type checks.
   
   • Fundamental Python imports
