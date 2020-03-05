@@ -2,6 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
+from sklearn.cluster import KMeans
 
 #Generating a random dataset using 'make_blobs'
 
@@ -41,6 +42,7 @@ plt.scatter(dataset[0][:, 0], dataset[0][:, 1])
 centers = kmeans.cluster_centers_
 
 #Printing centers of each cluster
+print("Centroids:")
 print(centers)
 #As you can see, it isn't very centered.. or 'converged'
 
