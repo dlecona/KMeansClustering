@@ -1,5 +1,5 @@
 # K-Means Clustering
-This program was designed to generate random datasets to cluster data points using K means clustering.
+This program was designed to generate random datasets to cluster data points using K-means clustering.
 
 # Inputs
 
@@ -17,7 +17,7 @@ The following variables within the make_blobs() function are able to be manipula
   
         a. Randomly sets the centroid location 
 
-i.e. if you with to add more parameters, check out the kmeans clustering documentation within sklearn.
+Also, if you wish to add more parameters, check out the k-means clustering documentation within sklearn.
  
 # Operation Performed
 
