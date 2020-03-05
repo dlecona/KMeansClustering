@@ -6,7 +6,7 @@ This program was designed to generate random datasets to cluster data points usi
 The following variables within the make_blobs() function are able to be manipulated:  
   1) Number of samples
   
-        a. Amonunt of points generated
+        a. Amount of points generated
   2) Centers
   
         a. Amount of centers generated
