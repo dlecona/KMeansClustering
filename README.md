@@ -5,13 +5,17 @@ This program was designed to generate random datasets to cluster data points usi
 
 The following variables within the make_blobs() function are able to be manipulated:  
   1) Number of samples
-      a. Amonunt of points generated
+  
+        a. Amonunt of points generated
   2) Centers
-      a. Amount of center generated
+  
+        a. Amount of center generated
   3) Cluster S.D.
-      a. Sets a standard deviation to the clusters
+  
+        a. Sets a standard deviation to the clusters
   4) Random state
-      a. Randomly sets the centroid location 
+  
+        a. Randomly sets the centroid location 
 
 i.e. if you with to add more parameters, check out the kmeans clustering documentation within sklearn.
  
