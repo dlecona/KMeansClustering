@@ -9,7 +9,7 @@ The following variables within the make_blobs() function are able to be manipula
         a. Amonunt of points generated
   2) Centers
   
-        a. Amount of center generated
+        a. Amount of centers generated
   3) Cluster S.D.
   
         a. Sets a standard deviation to the clusters
