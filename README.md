@@ -55,6 +55,13 @@ Adjusted with 3 points:
     plt.scatter(centers[0][0], centers[0][1], marker = '*', s = 200, color = 'black')
     plt.scatter(centers[1][0], centers[1][1], marker = '*', s = 200, color = 'black')
     plt.scatter(centers[2][0], centers[2][1], marker = '*', s = 200, color = 'black')
+
+
+# How to Run
+  To edit, use the text editor of your liking and run by simply using the following command in terminal/cmd:
+  
+    python kmeans.py
+    
     
 # What I Learned
   • Exposed to an abundance of Python concepts that really gave me a feeling for the language
