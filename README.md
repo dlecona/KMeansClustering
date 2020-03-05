@@ -71,6 +71,6 @@ Adjusted with 3 points:
   • Exposed to an abundance of Python concepts that really gave me a feeling for the language
   
   • I liked how Python has an easier syntax than other languages, but still provides great reliability with its
-    own type checks.
+    own compiler checks.
   
   • Fundamental Python imports
