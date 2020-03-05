@@ -1,5 +1,4 @@
 # K Means Clustering
-
 This program was designed to generate random datasets to cluster using K means clustering
 
 # Inputs
