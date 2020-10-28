@@ -14,17 +14,6 @@ dataset = make_blobs(n_samples = 200, centers = 4,
 #dataset[1] contains the cluster to which it belongs to
 
 data = dataset[0]
-#Example of dataset[1].. which 
-#array([2, 0, 3, 3, 1, 0, 2, 0, 0, 1, 1, 2, 1, 1, 1, 3, 2, 2, 1, 1, 1, 3,
-#       2, 2, 2, 3, 2, 1, 3, 2, 2, 1, 1, 0, 0, 1, 1, 1, 3, 3, 2, 1, 3, 3,
-#       0, 0, 2, 3, 3, 2, 0, 1, 3, 2, 3, 3, 0, 1, 1, 3, 0, 0, 2, 0, 0, 2,
-#       0, 3, 2, 2, 0, 1, 2, 0, 3, 3, 1, 3, 3, 0, 1, 3, 1, 1, 1, 1, 2, 0,
-#       2, 1, 0, 2, 0, 3, 3, 1, 0, 3, 0, 3, 1, 0, 3, 2, 3, 0, 3, 1, 1, 2,
-#       0, 1, 2, 2, 1, 3, 2, 2, 3, 0, 2, 2, 2, 2, 0, 2, 2, 3, 2, 0, 1, 0,
-#       0, 3, 2, 3, 0, 2, 2, 1, 2, 3, 2, 1, 1, 2, 0, 3, 0, 1, 2, 1, 3, 0,
-#       0, 3, 2, 0, 0, 0, 3, 3, 1, 0, 1, 1, 1, 3, 0, 0, 0, 0, 1, 3, 0, 2,
-#       1, 0, 2, 3, 0, 3, 3, 2, 1, 0, 1, 2, 3, 0, 3, 3, 1, 3, 0, 2, 1, 3,
-#       1, 2]))
 
 #create a kmeans objects
 kmeans = KMeans(n_clusters = 4)
@@ -44,7 +33,7 @@ centers = kmeans.cluster_centers_
 #Printing centers of each cluster
 print("Centroids:")
 print(centers)
-#As you can see, it isn't very centered.. or 'converged'
+
 
 #Fitting the data points and predicting there centers
 y_kmeans = kmeans.fit_predict(data)
